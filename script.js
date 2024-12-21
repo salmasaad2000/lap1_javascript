@@ -1,5 +1,5 @@
 //----------------------------------------------------------------------------------------------------------//
-//Qustions 1
+                                //Questions 1
 
 function sort (num1, num2, num3){
 if (num1 >= num2 && num1 >= num3) {
@@ -23,7 +23,7 @@ if (num1 >= num2 && num1 >= num3) {
 }
 }
 //----------------------------------------------------------------------------------------------------------//
-//Qustion 2
+                                    //Question 2
 
 function irrt (){
     for (i = 1; i <= 100; i++) {
@@ -41,12 +41,12 @@ function irrt (){
 }
 
 //----------------------------------------------------------------------------------------------------------//
-//qustion 3
+                                  //Question 3
 
 function sum (){
     sum = 0;
 
-    for (let i = 1; i < 1000; i++) {
+    for (i = 1; i < 1000; i++) {
         if (i % 3 === 0 || i % 5 === 0) {
             sum += i;
         }
@@ -56,13 +56,13 @@ function sum (){
 
 }
 //----------------------------------------------------------------------------------------------------------//
-//qustion 4
+                                    //Question 4
 
 function playGuessingGame() {
-    let attempts = 0;
+    attempts = 0;
     const maxAttempts = 3;
     const randomNumber = Math.floor(Math.random() * 10) + 1; // Random number between 1 and 10
-    let userWantsToContinue = true;
+    userWantsToContinue = true;
 
     while (attempts < maxAttempts && userWantsToContinue) {
         const userGuess = parseInt(prompt("Guess a number between 1 and 10:"));
@@ -84,7 +84,7 @@ function playGuessingGame() {
 }
 
 //----------------------------------------------------------------------------------------------------------//
-//qustion 5
+                                 //Question 5
 
 
 //----------------------------------------------------------------------------------------------------------//
